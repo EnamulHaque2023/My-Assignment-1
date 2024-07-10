@@ -21,11 +21,14 @@ body{
 .btn-primary{
     border: 1px solid  #0D1321;
     border-radius: 20px;
+    height: 80px;
+    /* margin: 20px; */
+    margin-top: 40px;
 
 }
 .btn-primary a{
     text-decoration:none ;
-    font-size: 30px;
+    font-size: 20px;
     color: #0D1321;
     font-weight: bold;
     font-family: azeret mono;
@@ -38,6 +41,7 @@ body{
     height: 700px;
     /* display: flex; */
     display:block ;
+    overflow-y: hidden;
 }
 
 .banner-logo{
@@ -48,7 +52,7 @@ body{
 .banner-title{
     justify-content: center;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .banner-description{
@@ -61,9 +65,9 @@ body{
     border: 1px solid  #0D1321;
     border-radius: 10px;
     background-color: black;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    margin: 70px;
 
-    
 }
 
 .banner-btn a{
@@ -71,14 +75,47 @@ body{
     text-align: center;
     font-weight:bolder ;
     text-decoration:none ;
-    font-size: 50px;
+    font-size: 40px;
     color: #ffffff;
-    /* padding-bottom: 15px; */
-    /* margin-bottom: 15px; */
-/* background-color: rgb(0, 0, 0); */
-b
-    
- 
+   
+}
 
+/* this is main section */
+.Why-Web{
+    justify-content: center;
+    text-align: ;
+    display: flex;
+    width: 1140px;
+    margin: 30px auto;
+    background-color:rgb(245, 240, 225);
+}
+.bloc-1{
+    justify-content: space-between;
+    text-align: center;
+}
+
+.title-2{
+    display:flex ;
+    justify-content: space-between;
+
+}
+
+
+.my-ins{
+    justify-content: center;
+    text-align: center;
+    width: 1100px;
+    margin: 30px auto;
     
 }
+
+.my-target{
+    justify-content: center;
+    text-align: center;
+
+}
+.title2{
+
+
+}
+
