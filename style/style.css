@@ -35,14 +35,15 @@ body{
 /* This is banner section */
 .banner{
     background-image: url(../assets/Hero-bg.png);
-    height: 800px;
+    height: 700px;
     /* display: flex; */
-    /* display:block ; */
+    display:block ;
 }
 
 .banner-logo{
-    justify-content: center;
+    /* justify-content: center; */
     text-align: center;
+    padding-top: 15px;
 }
 .banner-title{
     justify-content: center;
@@ -57,6 +58,27 @@ body{
 }
 
 .banner-btn{
+    border: 1px solid  #0D1321;
+    border-radius: 10px;
+    background-color: black;
+    margin-top: 50px;
+
+    
+}
+
+.banner-btn a{
+    justify-content:center ; */
     text-align: center;
-    margin-bottom: 10px;
+    font-weight:bolder ;
+    text-decoration:none ;
+    font-size: 50px;
+    color: #ffffff;
+    /* padding-bottom: 15px; */
+    /* margin-bottom: 15px; */
+/* background-color: rgb(0, 0, 0); */
+b
+    
+ 
+
+    
 }
