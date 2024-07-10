@@ -177,5 +177,14 @@ input{
     text-align: center;
     font-size: 40px;
     border-radius: 5px;
-  
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    margin: 25px;
 }
