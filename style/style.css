@@ -5,11 +5,12 @@ body{
 }
 
 /* This is header css */
+
 .header-text{
     display: flex;
     justify-content: space-between;
     color: #0D1321;
-    margin: 40px 80px ;
+    margin: 20px 40px ;
     font-family: azeret mono;
 }
 .left-text{
@@ -89,14 +90,21 @@ body{
     margin: 30px auto;
     background-color:rgb(245, 240, 225);
 }
-.bloc-1{
+.block-1{
     justify-content: space-between;
     text-align: center;
+    margin-top: 25px;
+}
+
+.block-2{
+    display:flex ;
+    justify-content: space-between;
+    padding: 40px;
 }
 
 .title-2{
-    display:flex ;
-    justify-content: space-between;
+  
+    width: 30%;
 
 }
 
